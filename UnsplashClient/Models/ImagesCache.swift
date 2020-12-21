@@ -40,6 +40,11 @@ class ImagesCache {
         dataTasks[row] = dataTask
     }
     
+    func cancelDataTaskFor(row: Int) {
+        guard row < dataTasks.count else { return }
+        dataTasks[row]?.cancel()
+    }
+    
     func cancelDataTasksFor(indexPaths: [IndexPath]) {
         indexPaths.forEach {
             dataTasks[$0.row]?.cancel()

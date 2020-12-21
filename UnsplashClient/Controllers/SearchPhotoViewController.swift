@@ -119,7 +119,7 @@ extension SearchPhotoViewController: UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didEndDisplaying cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        imagesCache.cancelDataTasksFor(indexPaths: [indexPath])
+        imagesCache.cancelDataTaskFor(row: indexPath.row)
     }
 }
 
