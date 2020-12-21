@@ -1,0 +1,24 @@
+PODS:
+  - ARChromeActivity (1.0.6)
+  - SwiftGifOrigin (1.7.0)
+  - TUSafariActivity (1.0.4)
+
+DEPENDENCIES:
+  - ARChromeActivity (~> 1.0.6)
+  - SwiftGifOrigin (~> 1.7.0)
+  - TUSafariActivity (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - ARChromeActivity
+    - SwiftGifOrigin
+    - TUSafariActivity
+
+SPEC CHECKSUMS:
+  ARChromeActivity: 5dcf9b9f09323761f992aff3525cdd777f83609d
+  SwiftGifOrigin: fbd6cf37afcfcf97a5c3db996ddc0492e5c5c145
+  TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
+
+PODFILE CHECKSUM: 0eb9299acdedd216b4c9c67e0314696d5714e63c
+
+COCOAPODS: 1.10.0

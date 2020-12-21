@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-UnsplashClient/Pods-UnsplashClient-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ARChromeActivity/ARChromeActivity.framework
+${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework
+${BUILT_PRODUCTS_DIR}/TUSafariActivity/TUSafariActivity.framework
