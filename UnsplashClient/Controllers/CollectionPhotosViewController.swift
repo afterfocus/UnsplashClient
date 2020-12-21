@@ -24,15 +24,8 @@ class CollectionPhotosViewController: UIViewController {
     // MARK: - Private Properties
     
     private let queryService = QueryService()
-    private var images = [Image]() {
-        didSet {
-            uiImages = [UIImage?](repeating: nil, count: images.count)
-            dataTasks.forEach { $0?.cancel() }
-            dataTasks = [URLSessionDataTask?](repeating: nil, count: images.count)
-        }
-    }
-    private var uiImages: [UIImage?]!
-    private var dataTasks = [URLSessionDataTask?]()
+    private var images = [Image]()
+    private var imagesCache: ImagesCache!
     private var currentPage = 1
     private var totalPages = 0
     
@@ -44,9 +37,10 @@ class CollectionPhotosViewController: UIViewController {
         navigationItem.titleView = titleViewWith(title: collection.title, subtitle: collection.user.name)
         totalPages = Int((Double(collection.totalPhotos) / Double(QueryService.pageSize)).rounded(.up))
         
-        queryService.getCollectionPhotos(collectionId: collection.id) { [weak self] images in
-            guard let images = images else { return }
-            self?.images = images
+        queryService.getCollectionPhotos(collectionId: collection.id) { [weak self] newImages in
+            guard let newImages = newImages else { return }
+            self?.images = newImages
+            self?.imagesCache = ImagesCache(size: newImages.count)
             self?.tableView.reloadData()
         }
     }
@@ -122,7 +116,7 @@ extension CollectionPhotosViewController: UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        guard let uiImage = uiImages[indexPath.row],
+        guard let uiImage = imagesCache[indexPath.row],
             let photoDetailController = storyboard?.instantiateViewController(withIdentifier: "PhotoDetailViewController") as? PhotoDetailViewController else { return }
         photoDetailController.image = images[indexPath.row]
         photoDetailController.regularResUIImage = uiImage
@@ -135,16 +129,16 @@ extension CollectionPhotosViewController: UITableViewDelegate {
         guard currentPage < totalPages, indexPath.row + 1 == images.count else { return }
         currentPage += 1
         
-        queryService.getCollectionPhotos(collectionId: collection.id, page: currentPage) { [weak self] images in
-            guard let images = images else { return }
-            self?.images += images
-            self?.uiImages += [UIImage?](repeating: nil, count: images.count)
+        queryService.getCollectionPhotos(collectionId: collection.id, page: currentPage) { [weak self] newImages in
+            guard let newImages = newImages else { return }
+            self?.images += newImages
+            self?.imagesCache.increase(by: newImages.count)
             self?.tableView.reloadData()
         }
     }
     
     func tableView(_ tableView: UITableView, didEndDisplaying cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        dataTasks[indexPath.row]?.cancel()
+        imagesCache.cancelDataTasksFor(indexPaths: [indexPath])
     }
 }
 
@@ -165,15 +159,16 @@ extension CollectionPhotosViewController: UITableViewDataSource {
         cell.authorLabel.text = image.user.name
         cell.likesLabel.text = "\(image.likes)"
         
-        if let uiImage = uiImages[row] {
+        if let uiImage = imagesCache[row] {
             cell.uiImage = uiImage
         } else {
-            dataTasks[row] = queryService.downloadImageData(from: image.urls.regular) {
+            let dataTask = queryService.downloadImageData(from: image.urls.regular) {
                 [weak cell, weak self] data in
                 guard let data = data, let uiImage = UIImage(data: data) else { return }
-                self?.uiImages[row] = uiImage
+                self?.imagesCache[row] = uiImage
                 cell?.uiImage = uiImage
             }
+            imagesCache.setDataTask(dataTask, for: row)
         }
         return cell
     }
@@ -185,17 +180,18 @@ extension CollectionPhotosViewController: UITableViewDataSource {
 extension CollectionPhotosViewController: UITableViewDataSourcePrefetching {
     
     func tableView(_ tableView: UITableView, prefetchRowsAt indexPaths: [IndexPath]) {
-        for indexPath in indexPaths where uiImages[indexPath.row] == nil {
+        for indexPath in indexPaths where imagesCache[indexPath.row] == nil {
             let row = indexPath.row
-            dataTasks[row] = queryService.downloadImageData(from: images[row].urls.regular) {
+            let dataTasks = queryService.downloadImageData(from: images[row].urls.regular) {
                 [weak self] data in
                 guard let data = data else { return }
-                self?.uiImages[row] = UIImage(data: data)
+                self?.imagesCache[row] = UIImage(data: data)
             }
+            imagesCache.setDataTask(dataTasks, for: row)
         }
     }
     
     func tableView(_ tableView: UITableView, cancelPrefetchingForRowsAt indexPaths: [IndexPath]) {
-        indexPaths.forEach { dataTasks[$0.row]?.cancel() }
+        imagesCache.cancelDataTasksFor(indexPaths: indexPaths)
     }
 }

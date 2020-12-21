@@ -20,15 +20,8 @@ class SearchPhotoViewController: UIViewController {
     // MARK: - Private Properties
     
     private let queryService = QueryService()
-    private var images = [Image]() {
-        didSet {
-            uiImages = [UIImage?](repeating: nil, count: images.count)
-            dataTasks.forEach { $0?.cancel() }
-            dataTasks = [URLSessionDataTask?](repeating: nil, count: images.count)
-        }
-    }
-    private var uiImages: [UIImage?]!
-    private var dataTasks = [URLSessionDataTask?]()
+    private var images = [Image]()
+    private var imagesCache: ImagesCache!
     private var searchTerm: String!
     private var currentPage = 0
     private var totalPages = 0
@@ -44,9 +37,10 @@ class SearchPhotoViewController: UIViewController {
         navigationItem.searchController = searchController
         navigationItem.hidesSearchBarWhenScrolling = false
         
-        queryService.getRandomPhotos(count: 10) { [weak self] images in
-            guard let images = images else { return }
-            self?.images = images
+        queryService.getRandomPhotos(count: 10) { [weak self] newImages in
+            guard let newImages = newImages else { return }
+            self?.images = newImages
+            self?.imagesCache = ImagesCache(size: newImages.count)
             self?.tableView.reloadData()
         }
     }
@@ -77,6 +71,7 @@ extension SearchPhotoViewController: UISearchBarDelegate {
             self?.images = searchResult.images
             self?.currentPage = 1
             self?.totalPages = searchResult.totalPages
+            self?.imagesCache.recreate(newSize: searchResult.images.count)
             self?.tableView.reloadData()
             if !searchResult.images.isEmpty {
                 self?.tableView.scrollToRow(at: IndexPath(row: 0, section: 0), at: .top, animated: false)
@@ -100,7 +95,7 @@ extension SearchPhotoViewController: UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        guard let uiImage = uiImages[indexPath.row],
+        guard let uiImage = imagesCache[indexPath.row],
             let photoDetailController = storyboard?.instantiateViewController(withIdentifier: "PhotoDetailViewController") as? PhotoDetailViewController else { return }
         photoDetailController.image = images[indexPath.row]
         photoDetailController.regularResUIImage = uiImage
@@ -116,15 +111,15 @@ extension SearchPhotoViewController: UITableViewDelegate {
         currentPage += 1
         
         queryService.searchPhotos(searchTerm: searchTerm, page: currentPage) { [weak self] searchResult in
-            guard let images = searchResult?.images else { return }
-            self?.images += images
-            self?.uiImages += [UIImage?](repeating: nil, count: images.count)
+            guard let newImages = searchResult?.images else { return }
+            self?.images += newImages
+            self?.imagesCache.increase(by: newImages.count)
             self?.tableView.reloadData()
         }
     }
     
     func tableView(_ tableView: UITableView, didEndDisplaying cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        dataTasks[indexPath.row]?.cancel()
+        imagesCache.cancelDataTasksFor(indexPaths: [indexPath])
     }
 }
 
@@ -145,15 +140,16 @@ extension SearchPhotoViewController: UITableViewDataSource {
         cell.authorLabel.text = image.user.name
         cell.likesLabel.text = "\(image.likes)"
         
-        if let uiImage = uiImages[row] {
+        if let uiImage = imagesCache[row] {
             cell.uiImage = uiImage
         } else {
-            dataTasks[row] = queryService.downloadImageData(from: image.urls.regular) {
+            let dataTask = queryService.downloadImageData(from: image.urls.regular) {
                 [weak cell, weak self] data in
                 guard let data = data, let uiImage = UIImage(data: data) else { return }
-                self?.uiImages[row] = uiImage
+                self?.imagesCache[row] = uiImage
                 cell?.uiImage = uiImage
             }
+            imagesCache.setDataTask(dataTask, for: row)
         }
         return cell
     }
@@ -165,17 +161,18 @@ extension SearchPhotoViewController: UITableViewDataSource {
 extension SearchPhotoViewController: UITableViewDataSourcePrefetching {
     
     func tableView(_ tableView: UITableView, prefetchRowsAt indexPaths: [IndexPath]) {
-        for indexPath in indexPaths where uiImages[indexPath.row] == nil {
+        for indexPath in indexPaths where imagesCache[indexPath.row] == nil {
             let row = indexPath.row
-            dataTasks[row] = queryService.downloadImageData(from: images[row].urls.regular) {
+            let dataTask = queryService.downloadImageData(from: images[row].urls.regular) {
                 [weak self] data in
                 guard let data = data else { return }
-                self?.uiImages[row] = UIImage(data: data)
+                self?.imagesCache[row] = UIImage(data: data)
             }
+            imagesCache.setDataTask(dataTask, for: row)
         }
     }
     
     func tableView(_ tableView: UITableView, cancelPrefetchingForRowsAt indexPaths: [IndexPath]) {
-        indexPaths.forEach { dataTasks[$0.row]?.cancel() }
+        imagesCache.cancelDataTasksFor(indexPaths: indexPaths)
     }
 }
