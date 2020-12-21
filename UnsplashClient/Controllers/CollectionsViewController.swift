@@ -21,9 +21,12 @@ class CollectionsViewController: UIViewController {
     private var collections = [PhotoCollection]() {
         didSet {
             uiImages = [UIImage?](repeating: nil, count: collections.count)
+            dataTasks.forEach { $0?.cancel() }
+            dataTasks = [URLSessionDataTask?](repeating: nil, count: collections.count)
         }
     }
     private var uiImages: [UIImage?]!
+    private var dataTasks = [URLSessionDataTask?]()
     private var currentPage = 1
     
     // MARK: - View Life Cycle
@@ -63,6 +66,10 @@ extension CollectionsViewController: UITableViewDelegate {
             self?.tableView.reloadData()
         }
     }
+    
+    func tableView(_ tableView: UITableView, didEndDisplaying cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        dataTasks[indexPath.row]?.cancel()
+    }
 }
 
 
@@ -85,7 +92,7 @@ extension CollectionsViewController: UITableViewDataSource {
         if let uiImage = uiImages[row] {
             cell.uiImage = uiImage
         } else {
-            queryService.downloadImageData(from: collections[row].coverPhoto.urls.regular) {
+            dataTasks[row] = queryService.downloadImageData(from: collections[row].coverPhoto.urls.regular) {
                 [weak cell, weak self] data in
                 guard let data = data, let uiImage = UIImage(data: data) else { return }
                 self?.uiImages[row] = uiImage
@@ -103,12 +110,17 @@ extension CollectionsViewController: UITableViewDataSourcePrefetching {
     
     func tableView(_ tableView: UITableView, prefetchRowsAt indexPaths: [IndexPath]) {
         for indexPath in indexPaths where uiImages[indexPath.row] == nil {
-            queryService.downloadImageData(from: collections[indexPath.row].coverPhoto.urls.regular) {
+            let row = indexPath.row
+            dataTasks[row] = queryService.downloadImageData(from: collections[row].coverPhoto.urls.regular) {
                 [weak self] data in
                 guard let data = data else { return }
-                self?.uiImages[indexPath.row] = UIImage(data: data)
+                self?.uiImages[row] = UIImage(data: data)
             }
         }
+    }
+    
+    func tableView(_ tableView: UITableView, cancelPrefetchingForRowsAt indexPaths: [IndexPath]) {
+        indexPaths.forEach { dataTasks[$0.row]?.cancel() }
     }
 }
 

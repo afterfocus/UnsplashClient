@@ -112,7 +112,8 @@ class RandomPhotoViewController: UIViewController {
     }
     
     @objc private func imageTapped() {
-        guard let photoDetailController = storyboard?.instantiateViewController(withIdentifier: "PhotoDetailViewController") as? PhotoDetailViewController else { return }
+        guard let photoDetailController = storyboard?.instantiateViewController(withIdentifier: "PhotoDetailViewController") as? PhotoDetailViewController,
+              let image = image else { return }
         photoDetailController.image = image
         photoDetailController.regularResUIImage = randomImageView.image
         photoDetailController.modalPresentationStyle = .overFullScreen

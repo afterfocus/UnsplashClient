@@ -58,10 +58,11 @@ class QueryService {
         query(for: [Image].self, from: url, completion: completion)
     }
     
-    func downloadImageData(from urlString: String, completion: @escaping (Data?) -> Void) {
-        guard let url = URL(string: urlString) else { return }
+    @discardableResult func downloadImageData(from urlString: String,
+                                              completion: @escaping (Data?) -> Void) -> URLSessionDataTask? {
+        guard let url = URL(string: urlString) else { return nil }
         
-        URLSession.shared.dataTask(with: url) { data, response, error in
+        let dataTask = URLSession.shared.dataTask(with: url) { data, response, error in
             if let error = error {
                 print(#function + " DataTask error: \(error.localizedDescription)")
             }
@@ -70,7 +71,9 @@ class QueryService {
                     completion(data)
                 }
             }
-        }.resume()
+        }
+        dataTask.resume()
+        return dataTask
     }
     
 
