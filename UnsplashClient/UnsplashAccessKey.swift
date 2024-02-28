@@ -7,4 +7,4 @@
 
 import Foundation
 
-public let accessKey: String = // PASTE YOUR API ACCESS KEY HERE
+public let accessKey = "nmriy13M2drpoGPPKgUkNNJTdR_yETdZsQVeGzQs9V0"

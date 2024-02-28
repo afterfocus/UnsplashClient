@@ -3,93 +3,93 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0141A95DB1F647899CC5D4DB824C065C /* SwiftGifOrigin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EBCC6D0B4D9286CFE505367D669B20 /* SwiftGifOrigin-dummy.m */; };
-		031A0048499F158E988ED7EDF9845CAD /* safari-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446DAA5A94528D606CA1D5768B219594 /* safari-7@2x.png */; };
-		035552C9C252844BF18797810E489F3E /* ARChromeActivity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A322FB18E615DC2A2A1DD1E78C86307 /* ARChromeActivity-dummy.m */; };
-		050DB1400925825C87F6877539B13164 /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EFCE7E0E4B59BC9A8798C500972FBD37 /* ru.lproj */; };
-		0D3E0B7874D8B71CBBFB2822690C8192 /* cs.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6E625CF7417C73CF91343DD07486D6F7 /* cs.lproj */; };
-		0E4EFD88B652262062DD5D69A1269AC5 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 55F5B8D5C31AC53093E9BB5BC1895A89 /* fr.lproj */; };
-		0E6F474993566718E1A52CE09E63E050 /* ARChromeActivity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B5D54767BD66CBFF769D54207FFF1AA /* ARChromeActivity@3x.png */; };
-		0EBB6673BB9A93C5A09242BF9819DF55 /* ARChromeActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F4FBF75EC40F5E9A7FAC2BE8DA434C /* ARChromeActivity.png */; };
-		14D9D19A7972698AA7085809CE5DDE96 /* safari.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AE2150A15278C82B9488ADC519D57D /* safari.png */; };
-		224BAD87E92E0520DBB7D12E01998F0A /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E99F4904AD0752719ECA12F80F0200 /* UIImage+Gif.swift */; };
-		26BF449E93363DB40A166C9676932D2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		29BC951E072CAD061357548EAF4A4203 /* TUSafariActivity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CBEA9E5224C8F4BE3D08BA27BE57C93 /* TUSafariActivity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A651B4E8A5AECE37252A3822DE41255 /* sv.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 89ABF7AD22CF592988E7E6A37AFFABF4 /* sv.lproj */; };
-		340B48F2523A03CE42BB2D378D5A195E /* TUSafariActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1BE26B2E21E4335785D4CFEA5AF210 /* TUSafariActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		369BC8EE3153E7C15D072B6B91AAFD0E /* ARChromeActivity@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DF7A69A072264EDEEE83777C90698D /* ARChromeActivity@2x~ipad.png */; };
-		38C2D866459381E09DED37BD44BFEA21 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 92B79AECA39E5D67B16F4A8C9F379717 /* it.lproj */; };
-		3EED7388DF74A0BF06C643D199365BE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5286A7B46F61A26E6B8F70264081672B /* ARChromeActivity~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 637C174381BA7A957EFA94F9B99E63D3 /* ARChromeActivity~ipad.png */; };
-		53394CBA28F2D9B7759F875D648D27A7 /* ARChromeActivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05ACF93CA15FAF04A2DD4C67F32796A7 /* ARChromeActivity@2x.png */; };
-		5B9E1B095148CA462CB358EC8BF30BB0 /* zh_CN.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 951AB200F23010938B3CF35FA170D875 /* zh_CN.lproj */; };
-		5C4A217682AACBA3A22F773B1D677038 /* safari-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FB0BF569D23DD1AC707C04BB4E8741 /* safari-7.png */; };
-		5C73C63BB4E8C6BDFEBFE11D72397033 /* TUSafariActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CBF0ECFB43881B7EEB6756031B134F /* TUSafariActivity.m */; };
-		628E0AFB9CC02CA6A4A4D062A90DC89F /* Pods-UnsplashClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0490BA344DBFB827B5A7286A94E962 /* Pods-UnsplashClient-dummy.m */; };
-		68368DB7511DA2A1BD9AAE21EFB1E8F3 /* TUSafariActivity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CAC330FAD02E824E8F23EE427D6651 /* TUSafariActivity-dummy.m */; };
-		6E07DFE78238903CEB86BF7888A54376 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		769C4479CA3113E83959FA85F3675208 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2BCDE6EFC089FD9DC33A095259E7818C /* ja.lproj */; };
-		76E155AD63778B0FB6F436B164E8725E /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F9D1D6B23466F717AA1E2695FAE1DA13 /* pl.lproj */; };
-		77ADBB7513474A71E8166FF87A40D444 /* ARChromeActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 39D8091940A0C3BAB1AD580862D75120 /* ARChromeActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7879093BB93C76A8104FF39EBFE06D61 /* safari-7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B8B96149F59801E8420396C814B81E4 /* safari-7@3x.png */; };
-		7B4749BBF53A558465CBE7E86AB8B24E /* sk.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7A42A0056F211D6D259FA8B0CC5A685D /* sk.lproj */; };
-		7ED5EBF1123207FBDA890C9A238D3603 /* ARChromeActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D74B141B35AFFD674107983CD0433FD /* ARChromeActivity.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8943F4BA5A2F84807EF85AF8F0651B2B /* safari~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC602B693E4B21FA5C68CB5CC9331C6 /* safari~iPad@2x.png */; };
-		8991C75CE8321B02706767B01D29890A /* SwiftGifOrigin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDAF8A37D341F8031B4D037C797C3AC2 /* SwiftGifOrigin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89F1AA2EF8243F05A94D052604B0A0A2 /* eu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9FB1CDCE6DABEDF8C35130C00ED2DB63 /* eu.lproj */; };
-		8EA10418CB473A1DEDD6CE2CCB005F75 /* ARChromeActivity@3x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 323691BCFB2B5C05C7EF176C91EA7467 /* ARChromeActivity@3x~ipad.png */; };
-		8FD4A6BF7E69CB862DF222422083569E /* safari-7~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D8ABA37EAA0054ECE49DF8FFBA9160 /* safari-7~iPad@2x.png */; };
-		93B6F98298FE3C882FDA540021645DF1 /* safari-7~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D36B5A26F26268356FC5FD60D8BB4487 /* safari-7~iPad.png */; };
-		93D494F870208C9C710E0909A0CAD78E /* safari~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2381238C383824AC285F8AD76577EB75 /* safari~iPad.png */; };
-		A15B11801C66DF175BA50C6E0096489D /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = ABE5CDA91B0CE1F3F14C5BC885FA5293 /* en.lproj */; };
-		A991D7D047AB0383908D7043AAA8A221 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 448EF5338C4ACB4F3813664FA0631DAA /* ko.lproj */; };
-		AB692E88951207065C011666092BE916 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		ADC64E390167606A8B6FF4C4248E28F2 /* no.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9759BE50C0D4D7D4E5C1D1739362A101 /* no.lproj */; };
-		B25E0D763073D61BA7D3B67C9F3783C5 /* TUSafariActivity.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62D751ABB9A352A482F54A4333E726B8 /* TUSafariActivity.bundle */; };
-		BB0EDFAAD261A17F67C84EB8ECFF1B27 /* safari@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8B58B097BAC4828F335439BBC6944B7 /* safari@3x.png */; };
-		C0DB9423011E618D7AD06991DF271181 /* safari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FEFD797A33D839519033016C32F5BE /* safari@2x.png */; };
-		CB7BA56B7D2C501369A17CA6DB6BF836 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7C205E70E15568252EF405D270703F36 /* de.lproj */; };
-		D140F0370D3DD80C2FF1FD840D749FCF /* ARChromeActivity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63372EB8DA095F04172371EC3C9DAD5B /* ARChromeActivity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFD73402B114A78D5E397A7023393AA2 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F0F147D690608822678D4F5F8CDA24D2 /* pt.lproj */; };
-		E0858DF1488C83C636789F5C1591F200 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C9221E54B57455DB804B0B1C5E3141A7 /* es.lproj */; };
-		E2AF03650DD73AA63ECF5755A3AD9946 /* fi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 43E7D49999188AD79478CCF3758467AA /* fi.lproj */; };
-		EA81949EB0ABCD95201F1D5ADB942665 /* Pods-UnsplashClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C662DA7D2CBE23D2BD71924F8F687F8 /* Pods-UnsplashClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F13F40A34134A8A961A7E2A509196E6C /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F46B99A558670620A559F509BB1E0917 /* nl.lproj */; };
-		FB4A97D23F440E66D2924E193D1EFC3D /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1EEC6A5667CFB35AA7ED7054FB47C98E /* vi.lproj */; };
+		0C7FEF54416A585C92D95127944485A6 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2BCDE6EFC089FD9DC33A095259E7818C /* ja.lproj */; };
+		10CFACF7CC31272924625F4F17350784 /* safari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FEFD797A33D839519033016C32F5BE /* safari@2x.png */; };
+		127BFF604B08F5CB91BE4A6DE84FF1EB /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7C205E70E15568252EF405D270703F36 /* de.lproj */; };
+		1360C817DF740583ABFA865FA655B476 /* no.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9759BE50C0D4D7D4E5C1D1739362A101 /* no.lproj */; };
+		144F79F020460F002709EBC79937C71F /* Pods-UnsplashClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0490BA344DBFB827B5A7286A94E962 /* Pods-UnsplashClient-dummy.m */; };
+		233C8B404C85B30ED1E7E1175B165733 /* ARChromeActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D74B141B35AFFD674107983CD0433FD /* ARChromeActivity.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		265C2BC30911C4FAC8BB89A484B547BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		318D23995662B76FF990AAFC3B7CBCBB /* Pods-UnsplashClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C662DA7D2CBE23D2BD71924F8F687F8 /* Pods-UnsplashClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D4AC40B95E989F206F15854D5F82CD6 /* safari~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2381238C383824AC285F8AD76577EB75 /* safari~iPad.png */; };
+		4B5E94EB992037BC40CAB5266CECB096 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F0F147D690608822678D4F5F8CDA24D2 /* pt.lproj */; };
+		569B17665B5EE084527B0681C151ED88 /* SwiftGifOrigin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDAF8A37D341F8031B4D037C797C3AC2 /* SwiftGifOrigin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		590C438C02DBFA1FBEF60CF15946803E /* safari-7~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = D36B5A26F26268356FC5FD60D8BB4487 /* safari-7~iPad.png */; };
+		59DB19B57DD6A31E79F504E495B6AB38 /* ARChromeActivity@3x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 323691BCFB2B5C05C7EF176C91EA7467 /* ARChromeActivity@3x~ipad.png */; };
+		5C11E95B8505AC36F0420350FA67B9AB /* safari.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AE2150A15278C82B9488ADC519D57D /* safari.png */; };
+		5E48460CAB99F9CA6A65F6A454674084 /* TUSafariActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1BE26B2E21E4335785D4CFEA5AF210 /* TUSafariActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DF5F6654C22026703AC642111F1FFD8 /* TUSafariActivity.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62D751ABB9A352A482F54A4333E726B8 /* TUSafariActivity.bundle */; };
+		6E6A28A8063CA6B8F37EAB286F93FE6F /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 55F5B8D5C31AC53093E9BB5BC1895A89 /* fr.lproj */; };
+		70940259C5456162B32C7961729D4E44 /* safari~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC602B693E4B21FA5C68CB5CC9331C6 /* safari~iPad@2x.png */; };
+		743B6318B531A79630ECB51635A17BDC /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EFCE7E0E4B59BC9A8798C500972FBD37 /* ru.lproj */; };
+		7A3E1471C6EACC0B6E5335ECB8605173 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 448EF5338C4ACB4F3813664FA0631DAA /* ko.lproj */; };
+		7BF0FF203E4DBB25E93FBE7A463CAB4C /* eu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9FB1CDCE6DABEDF8C35130C00ED2DB63 /* eu.lproj */; };
+		819C08D88C30CF7F98EF6305C75FA7E6 /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1EEC6A5667CFB35AA7ED7054FB47C98E /* vi.lproj */; };
+		83AA86346010DFC9041598EF120FDE36 /* ARChromeActivity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B5D54767BD66CBFF769D54207FFF1AA /* ARChromeActivity@3x.png */; };
+		83F4B2427AF74B97F82F142B14BE31F0 /* ARChromeActivity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63372EB8DA095F04172371EC3C9DAD5B /* ARChromeActivity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BD0DB22605D95EFE68EBCEC17ED4B02 /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F9D1D6B23466F717AA1E2695FAE1DA13 /* pl.lproj */; };
+		8F15531F4DA06D6E49AB361D75A588E5 /* safari-7~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D8ABA37EAA0054ECE49DF8FFBA9160 /* safari-7~iPad@2x.png */; };
+		91EAFA4753F0C660972A38BEE2C5780A /* cs.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6E625CF7417C73CF91343DD07486D6F7 /* cs.lproj */; };
+		937E6920F1F65BD5C78567E750772BE5 /* ARChromeActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 39D8091940A0C3BAB1AD580862D75120 /* ARChromeActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		963730DAF5259DB8222F895E3C53AF61 /* ARChromeActivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05ACF93CA15FAF04A2DD4C67F32796A7 /* ARChromeActivity@2x.png */; };
+		993C2F7933CB5ED1D7227767F337A28D /* TUSafariActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CBF0ECFB43881B7EEB6756031B134F /* TUSafariActivity.m */; };
+		9CE99EF7C30A2F6BF0A891CB98D5537C /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F46B99A558670620A559F509BB1E0917 /* nl.lproj */; };
+		A1FFF23CB75BEA681BB0091465AA7F2E /* safari-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 446DAA5A94528D606CA1D5768B219594 /* safari-7@2x.png */; };
+		A26E581D6EE70D59ABFFC982911018E5 /* ARChromeActivity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A322FB18E615DC2A2A1DD1E78C86307 /* ARChromeActivity-dummy.m */; };
+		A427E048FC07B8BA748C45D533F86DB4 /* ARChromeActivity~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 637C174381BA7A957EFA94F9B99E63D3 /* ARChromeActivity~ipad.png */; };
+		AFEE1C5E94AF9C95D351DEAE9CAE2439 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 92B79AECA39E5D67B16F4A8C9F379717 /* it.lproj */; };
+		B02C8DECAE0629A2099AA3EC860614A9 /* safari-7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B8B96149F59801E8420396C814B81E4 /* safari-7@3x.png */; };
+		B1E0CF571B3B93CF9E952265B4DACD53 /* sv.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 89ABF7AD22CF592988E7E6A37AFFABF4 /* sv.lproj */; };
+		BA2FDAF0A27289FE1ACBD545F1514F0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BB8159D413B7EAF0FAB1D882D75E4931 /* ARChromeActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F4FBF75EC40F5E9A7FAC2BE8DA434C /* ARChromeActivity.png */; };
+		BDAF494C573D16B7885E8CA57731FF15 /* safari@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8B58B097BAC4828F335439BBC6944B7 /* safari@3x.png */; };
+		C1E9A61FCF78FAF06EFF35B626FE1ABF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CC0F9DB48C34ECF897DB5CA524485D45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D0A5F1A0D8ABC3E23FFDC5BB45484111 /* zh_CN.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 951AB200F23010938B3CF35FA170D875 /* zh_CN.lproj */; };
+		D5B84F345BFF1AD5EC0E0E29996A868C /* safari-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FB0BF569D23DD1AC707C04BB4E8741 /* safari-7.png */; };
+		D940AC370CAB78889606C404529A57F0 /* ARChromeActivity@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DF7A69A072264EDEEE83777C90698D /* ARChromeActivity@2x~ipad.png */; };
+		E1A5F42A5A6044B7CF2651FBD31D27BF /* SwiftGifOrigin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EBCC6D0B4D9286CFE505367D669B20 /* SwiftGifOrigin-dummy.m */; };
+		E3CBCB75597E94B4E7CB8AA8EC4E55BF /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E99F4904AD0752719ECA12F80F0200 /* UIImage+Gif.swift */; };
+		E839EE152FAABCF6D142262A3BA6B7F5 /* fi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 43E7D49999188AD79478CCF3758467AA /* fi.lproj */; };
+		E8D3D34D2FCF291CAA32BD29E3DB6C29 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = ABE5CDA91B0CE1F3F14C5BC885FA5293 /* en.lproj */; };
+		EE02E74160AAE5581C7B6757050DECA7 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C9221E54B57455DB804B0B1C5E3141A7 /* es.lproj */; };
+		EE4CBCB9406DC5D48CD26F7D7F1433D1 /* TUSafariActivity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CBEA9E5224C8F4BE3D08BA27BE57C93 /* TUSafariActivity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF527B5D96DA770C3288FF4D4A5B30DF /* TUSafariActivity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CAC330FAD02E824E8F23EE427D6651 /* TUSafariActivity-dummy.m */; };
+		FD593524B9182C8B0A5F020E8E4756FE /* sk.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7A42A0056F211D6D259FA8B0CC5A685D /* sk.lproj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		66D5E0EDFFD636FF985BE6B8612C8642 /* PBXContainerItemProxy */ = {
+		07456A29ED60C5735B2B6323CA99097A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5B1BEE54E6F075C9FD6CFAD7FFC97727;
 			remoteInfo = TUSafariActivity;
 		};
-		76F4423FD5B19DA85F7EADC42DCB65A5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A7F9119A842E66F127E010A97169E4F4;
-			remoteInfo = SwiftGifOrigin;
-		};
-		949642951FCE6502D29254BCDA282DBE /* PBXContainerItemProxy */ = {
+		317D63292A705360DC2231D85B2D015D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7820232FF40C59895697DBAF0369BF55;
 			remoteInfo = ARChromeActivity;
 		};
-		E4906DBCF4A70DB4D8CBF4C74CF1EABD /* PBXContainerItemProxy */ = {
+		70F29F6FC14EBC68A8319CAC4830D4D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7DD2085A0DF56509B5D065A706C12E19;
 			remoteInfo = "TUSafariActivity-TUSafariActivity";
+		};
+		9F8D3BE9B15DE4234FF24565D6EE0219 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F9119A842E66F127E010A97169E4F4;
+			remoteInfo = SwiftGifOrigin;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -101,56 +101,56 @@
 		10D8ABA37EAA0054ECE49DF8FFBA9160 /* safari-7~iPad@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari-7~iPad@2x.png"; path = "Pod/Assets/safari-7~iPad@2x.png"; sourceTree = "<group>"; };
 		12F4FBF75EC40F5E9A7FAC2BE8DA434C /* ARChromeActivity.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ARChromeActivity.png; path = ARChromeActivity/ARChromeActivity.png; sourceTree = "<group>"; };
 		1B5D54767BD66CBFF769D54207FFF1AA /* ARChromeActivity@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ARChromeActivity@3x.png"; path = "ARChromeActivity/ARChromeActivity@3x.png"; sourceTree = "<group>"; };
-		1EEC6A5667CFB35AA7ED7054FB47C98E /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = vi.lproj; path = Pod/Assets/vi.lproj; sourceTree = "<group>"; };
+		1EEC6A5667CFB35AA7ED7054FB47C98E /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = vi.lproj; path = Pod/Assets/vi.lproj; sourceTree = "<group>"; };
 		1F364A78FEBD71072F074C8C97065B9A /* ResourceBundle-TUSafariActivity-TUSafariActivity-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TUSafariActivity-TUSafariActivity-Info.plist"; sourceTree = "<group>"; };
 		21B45B784836169684CC2972966D2EF9 /* ARChromeActivity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARChromeActivity-prefix.pch"; sourceTree = "<group>"; };
 		2381238C383824AC285F8AD76577EB75 /* safari~iPad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari~iPad.png"; path = "Pod/Assets/safari~iPad.png"; sourceTree = "<group>"; };
 		23CBF0ECFB43881B7EEB6756031B134F /* TUSafariActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TUSafariActivity.m; path = Pod/Classes/TUSafariActivity.m; sourceTree = "<group>"; };
 		299812A80156E0DE004F335F552579C5 /* Pods-UnsplashClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnsplashClient.release.xcconfig"; sourceTree = "<group>"; };
-		2BCDE6EFC089FD9DC33A095259E7818C /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = Pod/Assets/ja.lproj; sourceTree = "<group>"; };
+		2BCDE6EFC089FD9DC33A095259E7818C /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ja.lproj; path = Pod/Assets/ja.lproj; sourceTree = "<group>"; };
 		2D0813A3AEE5C825B6E78247253F72F6 /* ARChromeActivity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARChromeActivity.debug.xcconfig; sourceTree = "<group>"; };
 		31E35A6284A170673916A3DEB41B0DFA /* Pods-UnsplashClient-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnsplashClient-Info.plist"; sourceTree = "<group>"; };
 		323691BCFB2B5C05C7EF176C91EA7467 /* ARChromeActivity@3x~ipad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ARChromeActivity@3x~ipad.png"; path = "ARChromeActivity/ARChromeActivity@3x~ipad.png"; sourceTree = "<group>"; };
 		39D8091940A0C3BAB1AD580862D75120 /* ARChromeActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARChromeActivity.h; path = ARChromeActivity/ARChromeActivity.h; sourceTree = "<group>"; };
 		3D74B141B35AFFD674107983CD0433FD /* ARChromeActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ARChromeActivity.m; path = ARChromeActivity/ARChromeActivity.m; sourceTree = "<group>"; };
-		429D5C95C1AA32A707B13ABF6AFE2C9E /* ARChromeActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ARChromeActivity.framework; path = ARChromeActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		429D5C95C1AA32A707B13ABF6AFE2C9E /* ARChromeActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ARChromeActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42DF7A69A072264EDEEE83777C90698D /* ARChromeActivity@2x~ipad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ARChromeActivity@2x~ipad.png"; path = "ARChromeActivity/ARChromeActivity@2x~ipad.png"; sourceTree = "<group>"; };
-		43E7D49999188AD79478CCF3758467AA /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fi.lproj; path = Pod/Assets/fi.lproj; sourceTree = "<group>"; };
+		43E7D49999188AD79478CCF3758467AA /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fi.lproj; path = Pod/Assets/fi.lproj; sourceTree = "<group>"; };
 		446DAA5A94528D606CA1D5768B219594 /* safari-7@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari-7@2x.png"; path = "Pod/Assets/safari-7@2x.png"; sourceTree = "<group>"; };
-		448EF5338C4ACB4F3813664FA0631DAA /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.lproj; path = Pod/Assets/ko.lproj; sourceTree = "<group>"; };
+		448EF5338C4ACB4F3813664FA0631DAA /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ko.lproj; path = Pod/Assets/ko.lproj; sourceTree = "<group>"; };
 		45FB0BF569D23DD1AC707C04BB4E8741 /* safari-7.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari-7.png"; path = "Pod/Assets/safari-7.png"; sourceTree = "<group>"; };
 		4B8B96149F59801E8420396C814B81E4 /* safari-7@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari-7@3x.png"; path = "Pod/Assets/safari-7@3x.png"; sourceTree = "<group>"; };
 		4D442568DE7C877FD0DD1266AED2838E /* SwiftGifOrigin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftGifOrigin-Info.plist"; sourceTree = "<group>"; };
 		4E466E52330BAD497B6BCC3B8676CC7A /* SwiftGifOrigin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftGifOrigin.modulemap; sourceTree = "<group>"; };
-		55F5B8D5C31AC53093E9BB5BC1895A89 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = Pod/Assets/fr.lproj; sourceTree = "<group>"; };
+		55F5B8D5C31AC53093E9BB5BC1895A89 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = Pod/Assets/fr.lproj; sourceTree = "<group>"; };
 		5B887E29C11177019A9B2BB9870CECDC /* Pods-UnsplashClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnsplashClient.debug.xcconfig"; sourceTree = "<group>"; };
 		5C662DA7D2CBE23D2BD71924F8F687F8 /* Pods-UnsplashClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnsplashClient-umbrella.h"; sourceTree = "<group>"; };
-		62D751ABB9A352A482F54A4333E726B8 /* TUSafariActivity.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TUSafariActivity.bundle; path = "TUSafariActivity-TUSafariActivity.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D751ABB9A352A482F54A4333E726B8 /* TUSafariActivity.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TUSafariActivity.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		63372EB8DA095F04172371EC3C9DAD5B /* ARChromeActivity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARChromeActivity-umbrella.h"; sourceTree = "<group>"; };
 		637C174381BA7A957EFA94F9B99E63D3 /* ARChromeActivity~ipad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ARChromeActivity~ipad.png"; path = "ARChromeActivity/ARChromeActivity~ipad.png"; sourceTree = "<group>"; };
 		6ADDA4E6C0E687B291645220B01D379F /* TUSafariActivity-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TUSafariActivity-Info.plist"; sourceTree = "<group>"; };
-		6E625CF7417C73CF91343DD07486D6F7 /* cs.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = cs.lproj; path = Pod/Assets/cs.lproj; sourceTree = "<group>"; };
-		723264A56D0DA10A1EFB20763BC07F27 /* Pods_UnsplashClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UnsplashClient.framework; path = "Pods-UnsplashClient.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E625CF7417C73CF91343DD07486D6F7 /* cs.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = cs.lproj; path = Pod/Assets/cs.lproj; sourceTree = "<group>"; };
+		723264A56D0DA10A1EFB20763BC07F27 /* Pods-UnsplashClient */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UnsplashClient"; path = Pods_UnsplashClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		78FEFD797A33D839519033016C32F5BE /* safari@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari@2x.png"; path = "Pod/Assets/safari@2x.png"; sourceTree = "<group>"; };
-		7A42A0056F211D6D259FA8B0CC5A685D /* sk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = sk.lproj; path = Pod/Assets/sk.lproj; sourceTree = "<group>"; };
-		7A9A74B03D0C36975F6B2F719EB0D641 /* TUSafariActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TUSafariActivity.framework; path = TUSafariActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C205E70E15568252EF405D270703F36 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = Pod/Assets/de.lproj; sourceTree = "<group>"; };
+		7A42A0056F211D6D259FA8B0CC5A685D /* sk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = sk.lproj; path = Pod/Assets/sk.lproj; sourceTree = "<group>"; };
+		7A9A74B03D0C36975F6B2F719EB0D641 /* TUSafariActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TUSafariActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C205E70E15568252EF405D270703F36 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = Pod/Assets/de.lproj; sourceTree = "<group>"; };
 		8629EDE59EFA541113F297795F0DC6E9 /* SwiftGifOrigin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGifOrigin-prefix.pch"; sourceTree = "<group>"; };
 		895D55B00F9A0C4DDA6B80D277961F4E /* SwiftGifOrigin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGifOrigin.debug.xcconfig; sourceTree = "<group>"; };
-		89ABF7AD22CF592988E7E6A37AFFABF4 /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = sv.lproj; path = Pod/Assets/sv.lproj; sourceTree = "<group>"; };
+		89ABF7AD22CF592988E7E6A37AFFABF4 /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = sv.lproj; path = Pod/Assets/sv.lproj; sourceTree = "<group>"; };
 		8B1BE26B2E21E4335785D4CFEA5AF210 /* TUSafariActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TUSafariActivity.h; path = Pod/Classes/TUSafariActivity.h; sourceTree = "<group>"; };
 		8CBEA9E5224C8F4BE3D08BA27BE57C93 /* TUSafariActivity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TUSafariActivity-umbrella.h"; sourceTree = "<group>"; };
-		8E11114EB42D9DA49AD3DCEAD6567E79 /* SwiftGifOrigin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftGifOrigin.framework; path = SwiftGifOrigin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E11114EB42D9DA49AD3DCEAD6567E79 /* SwiftGifOrigin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftGifOrigin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ECAA88B8CC66BF86B8FBA62B3881F68 /* TUSafariActivity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TUSafariActivity.release.xcconfig; sourceTree = "<group>"; };
-		92B79AECA39E5D67B16F4A8C9F379717 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = it.lproj; path = Pod/Assets/it.lproj; sourceTree = "<group>"; };
-		951AB200F23010938B3CF35FA170D875 /* zh_CN.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = zh_CN.lproj; path = Pod/Assets/zh_CN.lproj; sourceTree = "<group>"; };
-		9759BE50C0D4D7D4E5C1D1739362A101 /* no.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = no.lproj; path = Pod/Assets/no.lproj; sourceTree = "<group>"; };
+		92B79AECA39E5D67B16F4A8C9F379717 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = it.lproj; path = Pod/Assets/it.lproj; sourceTree = "<group>"; };
+		951AB200F23010938B3CF35FA170D875 /* zh_CN.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = zh_CN.lproj; path = Pod/Assets/zh_CN.lproj; sourceTree = "<group>"; };
+		9759BE50C0D4D7D4E5C1D1739362A101 /* no.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = no.lproj; path = Pod/Assets/no.lproj; sourceTree = "<group>"; };
 		9A322FB18E615DC2A2A1DD1E78C86307 /* ARChromeActivity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ARChromeActivity-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FB1CDCE6DABEDF8C35130C00ED2DB63 /* eu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = eu.lproj; path = Pod/Assets/eu.lproj; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FB1CDCE6DABEDF8C35130C00ED2DB63 /* eu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = eu.lproj; path = Pod/Assets/eu.lproj; sourceTree = "<group>"; };
 		A03DA569B184E4D4784DF68DE3AD5C0C /* ARChromeActivity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ARChromeActivity.modulemap; sourceTree = "<group>"; };
-		ABE5CDA91B0CE1F3F14C5BC885FA5293 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = Pod/Assets/en.lproj; sourceTree = "<group>"; };
+		ABE5CDA91B0CE1F3F14C5BC885FA5293 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = Pod/Assets/en.lproj; sourceTree = "<group>"; };
 		AE86DBAE4C4BB8F1CB7DEAB471034538 /* TUSafariActivity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TUSafariActivity.modulemap; sourceTree = "<group>"; };
 		B3E99F4904AD0752719ECA12F80F0200 /* UIImage+Gif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Gif.swift"; path = "SwiftGifCommon/UIImage+Gif.swift"; sourceTree = "<group>"; };
 		B8153FF6A5BEC952E7A7783BDEC24A4E /* Pods-UnsplashClient-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnsplashClient-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -160,7 +160,7 @@
 		C4F5FB9E2B5157A09E15D94A092BF24B /* TUSafariActivity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TUSafariActivity.debug.xcconfig; sourceTree = "<group>"; };
 		C55057E6A7F0430DF3BDA209CC0A2490 /* ARChromeActivity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARChromeActivity.release.xcconfig; sourceTree = "<group>"; };
 		C8B58B097BAC4828F335439BBC6944B7 /* safari@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari@3x.png"; path = "Pod/Assets/safari@3x.png"; sourceTree = "<group>"; };
-		C9221E54B57455DB804B0B1C5E3141A7 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = Pod/Assets/es.lproj; sourceTree = "<group>"; };
+		C9221E54B57455DB804B0B1C5E3141A7 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = Pod/Assets/es.lproj; sourceTree = "<group>"; };
 		CB1D8760C07C1D487F0A57CC22210F93 /* TUSafariActivity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TUSafariActivity-prefix.pch"; sourceTree = "<group>"; };
 		CDAF8A37D341F8031B4D037C797C3AC2 /* SwiftGifOrigin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGifOrigin-umbrella.h"; sourceTree = "<group>"; };
 		D36B5A26F26268356FC5FD60D8BB4487 /* safari-7~iPad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari-7~iPad.png"; path = "Pod/Assets/safari-7~iPad.png"; sourceTree = "<group>"; };
@@ -168,67 +168,55 @@
 		DAB5A6249AE311FA51A9B55D9EC6E635 /* Pods-UnsplashClient-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnsplashClient-frameworks.sh"; sourceTree = "<group>"; };
 		DE0490BA344DBFB827B5A7286A94E962 /* Pods-UnsplashClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnsplashClient-dummy.m"; sourceTree = "<group>"; };
 		E73675B2CC4289A6FAF0252F3E507861 /* Pods-UnsplashClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnsplashClient.modulemap"; sourceTree = "<group>"; };
-		EFCE7E0E4B59BC9A8798C500972FBD37 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.lproj; path = Pod/Assets/ru.lproj; sourceTree = "<group>"; };
-		F0F147D690608822678D4F5F8CDA24D2 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pt.lproj; path = Pod/Assets/pt.lproj; sourceTree = "<group>"; };
-		F46B99A558670620A559F509BB1E0917 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nl.lproj; path = Pod/Assets/nl.lproj; sourceTree = "<group>"; };
-		F9D1D6B23466F717AA1E2695FAE1DA13 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pl.lproj; path = Pod/Assets/pl.lproj; sourceTree = "<group>"; };
+		EFCE7E0E4B59BC9A8798C500972FBD37 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ru.lproj; path = Pod/Assets/ru.lproj; sourceTree = "<group>"; };
+		F0F147D690608822678D4F5F8CDA24D2 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pt.lproj; path = Pod/Assets/pt.lproj; sourceTree = "<group>"; };
+		F46B99A558670620A559F509BB1E0917 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = nl.lproj; path = Pod/Assets/nl.lproj; sourceTree = "<group>"; };
+		F9D1D6B23466F717AA1E2695FAE1DA13 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pl.lproj; path = Pod/Assets/pl.lproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BA9B88DED93CE77C593432F18276CA95 /* Frameworks */ = {
+		0AC91F6762C1E3712A247FB4EBBB4B7A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EED7388DF74A0BF06C643D199365BE3 /* Foundation.framework in Frameworks */,
+				CC0F9DB48C34ECF897DB5CA524485D45 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C844CEE815202DAC5090EA5A54FCA01C /* Frameworks */ = {
+		67A2A9A37C4B413FD9E5A5AE9031D9D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E07DFE78238903CEB86BF7888A54376 /* Foundation.framework in Frameworks */,
+				BA2FDAF0A27289FE1ACBD545F1514F0F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB087A7E693F98FAC8F5C34B8F241611 /* Frameworks */ = {
+		8718D57AABBE23E96EDE98C4D1AD9F5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1E9A61FCF78FAF06EFF35B626FE1ABF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDE8061480F3BD3BE98786B36A06DA33 /* Frameworks */ = {
+		AC0B6275842236DA95D7FC116D568DD0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB692E88951207065C011666092BE916 /* Foundation.framework in Frameworks */,
+				265C2BC30911C4FAC8BB89A484B547BC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6AA5D9403CC35DF69005C8D256E43C6 /* Frameworks */ = {
+		C5FA95BFE85EDCAD3749E2BD550D9D5C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26BF449E93363DB40A166C9676932D2F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00AC0E9D0C8FD966706F19FB85B06452 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				429D5C95C1AA32A707B13ABF6AFE2C9E /* ARChromeActivity.framework */,
-				723264A56D0DA10A1EFB20763BC07F27 /* Pods_UnsplashClient.framework */,
-				8E11114EB42D9DA49AD3DCEAD6567E79 /* SwiftGifOrigin.framework */,
-				62D751ABB9A352A482F54A4333E726B8 /* TUSafariActivity.bundle */,
-				7A9A74B03D0C36975F6B2F719EB0D641 /* TUSafariActivity.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		07714D113BE0EB7F8614ABB0F9A7B033 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,6 +264,18 @@
 				637C174381BA7A957EFA94F9B99E63D3 /* ARChromeActivity~ipad.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		25BEBA83190E64469542698862368606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				429D5C95C1AA32A707B13ABF6AFE2C9E /* ARChromeActivity.framework */,
+				723264A56D0DA10A1EFB20763BC07F27 /* Pods-UnsplashClient */,
+				8E11114EB42D9DA49AD3DCEAD6567E79 /* SwiftGifOrigin.framework */,
+				7A9A74B03D0C36975F6B2F719EB0D641 /* TUSafariActivity.framework */,
+				62D751ABB9A352A482F54A4333E726B8 /* TUSafariActivity.bundle */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		4F7862B2BDAFA5ACD8922BF03585D4BF /* Support Files */ = {
@@ -358,7 +358,6 @@
 				11D7E2204A5B7AEEB4E9CDB6A84B7E38 /* Resources */,
 				616597619C7B2B6874B47B0B5FB356DF /* Support Files */,
 			);
-			name = ARChromeActivity;
 			path = ARChromeActivity;
 			sourceTree = "<group>";
 		};
@@ -370,7 +369,6 @@
 				07714D113BE0EB7F8614ABB0F9A7B033 /* Resources */,
 				4F7862B2BDAFA5ACD8922BF03585D4BF /* Support Files */,
 			);
-			name = TUSafariActivity;
 			path = TUSafariActivity;
 			sourceTree = "<group>";
 		};
@@ -380,7 +378,6 @@
 				B3E99F4904AD0752719ECA12F80F0200 /* UIImage+Gif.swift */,
 				99E585DDBF1CD22F12B5BEBACDBDF26B /* Support Files */,
 			);
-			name = SwiftGifOrigin;
 			path = SwiftGifOrigin;
 			sourceTree = "<group>";
 		};
@@ -390,7 +387,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				893DBBC91E7486E61C076192CB1A8974 /* Pods */,
-				00AC0E9D0C8FD966706F19FB85B06452 /* Products */,
+				25BEBA83190E64469542698862368606 /* Products */,
 				7D118A3A57571AFBA4A8FB1D277E7B26 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -423,37 +420,37 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8BBEB7E01AFA33E51F670612CB0F8692 /* Headers */ = {
+		729D6AE89E316EE164070C916D5238A6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29BC951E072CAD061357548EAF4A4203 /* TUSafariActivity-umbrella.h in Headers */,
-				340B48F2523A03CE42BB2D378D5A195E /* TUSafariActivity.h in Headers */,
+				569B17665B5EE084527B0681C151ED88 /* SwiftGifOrigin-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4968B75F6E74750833C248B00107245 /* Headers */ = {
+		9D75ED98858935F60A0BA30560E7B354 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D140F0370D3DD80C2FF1FD840D749FCF /* ARChromeActivity-umbrella.h in Headers */,
-				77ADBB7513474A71E8166FF87A40D444 /* ARChromeActivity.h in Headers */,
+				5E48460CAB99F9CA6A65F6A454674084 /* TUSafariActivity.h in Headers */,
+				EE4CBCB9406DC5D48CD26F7D7F1433D1 /* TUSafariActivity-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7D92C6B58C03834FACF33274374C173 /* Headers */ = {
+		AC5D5AB62A42394B6E2AB570AEF2308D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA81949EB0ABCD95201F1D5ADB942665 /* Pods-UnsplashClient-umbrella.h in Headers */,
+				318D23995662B76FF990AAFC3B7CBCBB /* Pods-UnsplashClient-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E81EFC3392CB1BBF5061F4F7F2B41563 /* Headers */ = {
+		EBC3E38106F67614A127CF64918FBB06 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8991C75CE8321B02706767B01D29890A /* SwiftGifOrigin-umbrella.h in Headers */,
+				937E6920F1F65BD5C78567E750772BE5 /* ARChromeActivity.h in Headers */,
+				83F4B2427AF74B97F82F142B14BE31F0 /* ARChromeActivity-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,38 +459,38 @@
 /* Begin PBXNativeTarget section */
 		214563AE522BB28D7E2E53787FC96E2C /* Pods-UnsplashClient */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93CBE6177963C771AFC5782A1B1203EF /* Build configuration list for PBXNativeTarget "Pods-UnsplashClient" */;
+			buildConfigurationList = 938EDB2D2BDE2DC50F09132C7AF93AB9 /* Build configuration list for PBXNativeTarget "Pods-UnsplashClient" */;
 			buildPhases = (
-				C7D92C6B58C03834FACF33274374C173 /* Headers */,
-				39C29296AC6007C7D378C880F2C903C7 /* Sources */,
-				BA9B88DED93CE77C593432F18276CA95 /* Frameworks */,
-				6F87E538D4DBE1258D46A532CD105580 /* Resources */,
+				AC5D5AB62A42394B6E2AB570AEF2308D /* Headers */,
+				6D7DF2E0DD243642775967BC7D7B66EF /* Sources */,
+				AC0B6275842236DA95D7FC116D568DD0 /* Frameworks */,
+				4B38C38596AC7DA15F4CECC22BE1961F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				20142AF98BA77FF1420CAE8D866647D9 /* PBXTargetDependency */,
-				C98C51D0F2B7CC5E2363345D46B4093B /* PBXTargetDependency */,
-				C232B0A2B757E52D4D511AE94CA7C343 /* PBXTargetDependency */,
+				71B458AB5B523064E8051AABB9786D77 /* PBXTargetDependency */,
+				F48C0D5E86E9F9D3BC53B2ED94D027F8 /* PBXTargetDependency */,
+				34104D40CF7C1AF9005DEC7FFE793EC5 /* PBXTargetDependency */,
 			);
 			name = "Pods-UnsplashClient";
-			productName = "Pods-UnsplashClient";
-			productReference = 723264A56D0DA10A1EFB20763BC07F27 /* Pods_UnsplashClient.framework */;
+			productName = Pods_UnsplashClient;
+			productReference = 723264A56D0DA10A1EFB20763BC07F27 /* Pods-UnsplashClient */;
 			productType = "com.apple.product-type.framework";
 		};
 		5B1BEE54E6F075C9FD6CFAD7FFC97727 /* TUSafariActivity */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB897FB0134E782049020E5E117838A4 /* Build configuration list for PBXNativeTarget "TUSafariActivity" */;
+			buildConfigurationList = 0569612B534A2623AF65BD0884085A78 /* Build configuration list for PBXNativeTarget "TUSafariActivity" */;
 			buildPhases = (
-				8BBEB7E01AFA33E51F670612CB0F8692 /* Headers */,
-				D1C25DFCA6D375C735325144805E7D43 /* Sources */,
-				EDE8061480F3BD3BE98786B36A06DA33 /* Frameworks */,
-				CF074C84167894C6C68CD8CCC385C951 /* Resources */,
+				9D75ED98858935F60A0BA30560E7B354 /* Headers */,
+				13C45809C4935D87A08FC714C5FCC6BC /* Sources */,
+				8718D57AABBE23E96EDE98C4D1AD9F5E /* Frameworks */,
+				F733A4EECB2EFE191F149B46315D7D46 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FCAFE66DCDD4E6B3C6C0C8FB2F805F4A /* PBXTargetDependency */,
+				E441792CC9A7BBB6DCB43161DB8165C7 /* PBXTargetDependency */,
 			);
 			name = TUSafariActivity;
 			productName = TUSafariActivity;
@@ -502,12 +499,12 @@
 		};
 		7820232FF40C59895697DBAF0369BF55 /* ARChromeActivity */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88EE434ABC20CDDC7D48CF507BDCEB69 /* Build configuration list for PBXNativeTarget "ARChromeActivity" */;
+			buildConfigurationList = 98D762D52E230DF4CC28ACA0AB40C00C /* Build configuration list for PBXNativeTarget "ARChromeActivity" */;
 			buildPhases = (
-				A4968B75F6E74750833C248B00107245 /* Headers */,
-				27AC23F81D25D286F28410AAB0487411 /* Sources */,
-				F6AA5D9403CC35DF69005C8D256E43C6 /* Frameworks */,
-				18076F828854DF5142E227D6285733FF /* Resources */,
+				EBC3E38106F67614A127CF64918FBB06 /* Headers */,
+				8AB903A4ED8B1E6E79547C656CC45612 /* Sources */,
+				67A2A9A37C4B413FD9E5A5AE9031D9D0 /* Frameworks */,
+				0F584539B363ED5244EFE3D4679BAF8B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -520,29 +517,29 @@
 		};
 		7DD2085A0DF56509B5D065A706C12E19 /* TUSafariActivity-TUSafariActivity */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C70ABBE961F2098FB27397202612845 /* Build configuration list for PBXNativeTarget "TUSafariActivity-TUSafariActivity" */;
+			buildConfigurationList = 7997408491067D161F9AF923ADE25563 /* Build configuration list for PBXNativeTarget "TUSafariActivity-TUSafariActivity" */;
 			buildPhases = (
-				A4392D5D3026540DE34129FB7C0DF2E8 /* Sources */,
-				EB087A7E693F98FAC8F5C34B8F241611 /* Frameworks */,
-				08821AB85AB56C245F6D23919816572D /* Resources */,
+				BE5AA4B401621214F27DACD1FA538D4A /* Sources */,
+				C5FA95BFE85EDCAD3749E2BD550D9D5C /* Frameworks */,
+				2B8317ACC476EFF7FD9E74071392BC67 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "TUSafariActivity-TUSafariActivity";
-			productName = "TUSafariActivity-TUSafariActivity";
+			productName = TUSafariActivity;
 			productReference = 62D751ABB9A352A482F54A4333E726B8 /* TUSafariActivity.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		A7F9119A842E66F127E010A97169E4F4 /* SwiftGifOrigin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99A19CAE5BD75E33445174D268501EC6 /* Build configuration list for PBXNativeTarget "SwiftGifOrigin" */;
+			buildConfigurationList = C95ED2684E193E89ED96D9EAC45CB7DB /* Build configuration list for PBXNativeTarget "SwiftGifOrigin" */;
 			buildPhases = (
-				E81EFC3392CB1BBF5061F4F7F2B41563 /* Headers */,
-				A8EB3FE901BE9442AF03C2DB361C7B9E /* Sources */,
-				C844CEE815202DAC5090EA5A54FCA01C /* Frameworks */,
-				4BE15D81617252BA65FECC14EA3D8A4A /* Resources */,
+				729D6AE89E316EE164070C916D5238A6 /* Headers */,
+				814F7F84DEFEABCB8B9DFCD2F3C9086B /* Sources */,
+				0AC91F6762C1E3712A247FB4EBBB4B7A /* Frameworks */,
+				28D7A47D6A322BEA7B150B2B608F1C4C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -559,19 +556,37 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 10.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				cs,
+				de,
+				en,
+				es,
+				eu,
+				fi,
+				fr,
+				it,
+				ja,
+				ko,
+				nl,
+				no,
+				pl,
+				pt,
+				ru,
+				sk,
+				sv,
+				vi,
+				zh_CN,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 00AC0E9D0C8FD966706F19FB85B06452 /* Products */;
+			productRefGroup = 25BEBA83190E64469542698862368606 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -585,153 +600,153 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		08821AB85AB56C245F6D23919816572D /* Resources */ = {
+		0F584539B363ED5244EFE3D4679BAF8B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D3E0B7874D8B71CBBFB2822690C8192 /* cs.lproj in Resources */,
-				CB7BA56B7D2C501369A17CA6DB6BF836 /* de.lproj in Resources */,
-				A15B11801C66DF175BA50C6E0096489D /* en.lproj in Resources */,
-				E0858DF1488C83C636789F5C1591F200 /* es.lproj in Resources */,
-				89F1AA2EF8243F05A94D052604B0A0A2 /* eu.lproj in Resources */,
-				E2AF03650DD73AA63ECF5755A3AD9946 /* fi.lproj in Resources */,
-				0E4EFD88B652262062DD5D69A1269AC5 /* fr.lproj in Resources */,
-				38C2D866459381E09DED37BD44BFEA21 /* it.lproj in Resources */,
-				769C4479CA3113E83959FA85F3675208 /* ja.lproj in Resources */,
-				A991D7D047AB0383908D7043AAA8A221 /* ko.lproj in Resources */,
-				F13F40A34134A8A961A7E2A509196E6C /* nl.lproj in Resources */,
-				ADC64E390167606A8B6FF4C4248E28F2 /* no.lproj in Resources */,
-				76E155AD63778B0FB6F436B164E8725E /* pl.lproj in Resources */,
-				DFD73402B114A78D5E397A7023393AA2 /* pt.lproj in Resources */,
-				050DB1400925825C87F6877539B13164 /* ru.lproj in Resources */,
-				5C4A217682AACBA3A22F773B1D677038 /* safari-7.png in Resources */,
-				031A0048499F158E988ED7EDF9845CAD /* safari-7@2x.png in Resources */,
-				7879093BB93C76A8104FF39EBFE06D61 /* safari-7@3x.png in Resources */,
-				93B6F98298FE3C882FDA540021645DF1 /* safari-7~iPad.png in Resources */,
-				8FD4A6BF7E69CB862DF222422083569E /* safari-7~iPad@2x.png in Resources */,
-				14D9D19A7972698AA7085809CE5DDE96 /* safari.png in Resources */,
-				C0DB9423011E618D7AD06991DF271181 /* safari@2x.png in Resources */,
-				BB0EDFAAD261A17F67C84EB8ECFF1B27 /* safari@3x.png in Resources */,
-				93D494F870208C9C710E0909A0CAD78E /* safari~iPad.png in Resources */,
-				8943F4BA5A2F84807EF85AF8F0651B2B /* safari~iPad@2x.png in Resources */,
-				7B4749BBF53A558465CBE7E86AB8B24E /* sk.lproj in Resources */,
-				2A651B4E8A5AECE37252A3822DE41255 /* sv.lproj in Resources */,
-				FB4A97D23F440E66D2924E193D1EFC3D /* vi.lproj in Resources */,
-				5B9E1B095148CA462CB358EC8BF30BB0 /* zh_CN.lproj in Resources */,
+				BB8159D413B7EAF0FAB1D882D75E4931 /* ARChromeActivity.png in Resources */,
+				963730DAF5259DB8222F895E3C53AF61 /* ARChromeActivity@2x.png in Resources */,
+				D940AC370CAB78889606C404529A57F0 /* ARChromeActivity@2x~ipad.png in Resources */,
+				83AA86346010DFC9041598EF120FDE36 /* ARChromeActivity@3x.png in Resources */,
+				59DB19B57DD6A31E79F504E495B6AB38 /* ARChromeActivity@3x~ipad.png in Resources */,
+				A427E048FC07B8BA748C45D533F86DB4 /* ARChromeActivity~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18076F828854DF5142E227D6285733FF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0EBB6673BB9A93C5A09242BF9819DF55 /* ARChromeActivity.png in Resources */,
-				53394CBA28F2D9B7759F875D648D27A7 /* ARChromeActivity@2x.png in Resources */,
-				369BC8EE3153E7C15D072B6B91AAFD0E /* ARChromeActivity@2x~ipad.png in Resources */,
-				0E6F474993566718E1A52CE09E63E050 /* ARChromeActivity@3x.png in Resources */,
-				8EA10418CB473A1DEDD6CE2CCB005F75 /* ARChromeActivity@3x~ipad.png in Resources */,
-				5286A7B46F61A26E6B8F70264081672B /* ARChromeActivity~ipad.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4BE15D81617252BA65FECC14EA3D8A4A /* Resources */ = {
+		28D7A47D6A322BEA7B150B2B608F1C4C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F87E538D4DBE1258D46A532CD105580 /* Resources */ = {
+		2B8317ACC476EFF7FD9E74071392BC67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EAFA4753F0C660972A38BEE2C5780A /* cs.lproj in Resources */,
+				127BFF604B08F5CB91BE4A6DE84FF1EB /* de.lproj in Resources */,
+				E8D3D34D2FCF291CAA32BD29E3DB6C29 /* en.lproj in Resources */,
+				EE02E74160AAE5581C7B6757050DECA7 /* es.lproj in Resources */,
+				7BF0FF203E4DBB25E93FBE7A463CAB4C /* eu.lproj in Resources */,
+				E839EE152FAABCF6D142262A3BA6B7F5 /* fi.lproj in Resources */,
+				6E6A28A8063CA6B8F37EAB286F93FE6F /* fr.lproj in Resources */,
+				AFEE1C5E94AF9C95D351DEAE9CAE2439 /* it.lproj in Resources */,
+				0C7FEF54416A585C92D95127944485A6 /* ja.lproj in Resources */,
+				7A3E1471C6EACC0B6E5335ECB8605173 /* ko.lproj in Resources */,
+				9CE99EF7C30A2F6BF0A891CB98D5537C /* nl.lproj in Resources */,
+				1360C817DF740583ABFA865FA655B476 /* no.lproj in Resources */,
+				8BD0DB22605D95EFE68EBCEC17ED4B02 /* pl.lproj in Resources */,
+				4B5E94EB992037BC40CAB5266CECB096 /* pt.lproj in Resources */,
+				743B6318B531A79630ECB51635A17BDC /* ru.lproj in Resources */,
+				5C11E95B8505AC36F0420350FA67B9AB /* safari.png in Resources */,
+				D5B84F345BFF1AD5EC0E0E29996A868C /* safari-7.png in Resources */,
+				A1FFF23CB75BEA681BB0091465AA7F2E /* safari-7@2x.png in Resources */,
+				B02C8DECAE0629A2099AA3EC860614A9 /* safari-7@3x.png in Resources */,
+				590C438C02DBFA1FBEF60CF15946803E /* safari-7~iPad.png in Resources */,
+				8F15531F4DA06D6E49AB361D75A588E5 /* safari-7~iPad@2x.png in Resources */,
+				10CFACF7CC31272924625F4F17350784 /* safari@2x.png in Resources */,
+				BDAF494C573D16B7885E8CA57731FF15 /* safari@3x.png in Resources */,
+				3D4AC40B95E989F206F15854D5F82CD6 /* safari~iPad.png in Resources */,
+				70940259C5456162B32C7961729D4E44 /* safari~iPad@2x.png in Resources */,
+				FD593524B9182C8B0A5F020E8E4756FE /* sk.lproj in Resources */,
+				B1E0CF571B3B93CF9E952265B4DACD53 /* sv.lproj in Resources */,
+				819C08D88C30CF7F98EF6305C75FA7E6 /* vi.lproj in Resources */,
+				D0A5F1A0D8ABC3E23FFDC5BB45484111 /* zh_CN.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B38C38596AC7DA15F4CECC22BE1961F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF074C84167894C6C68CD8CCC385C951 /* Resources */ = {
+		F733A4EECB2EFE191F149B46315D7D46 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B25E0D763073D61BA7D3B67C9F3783C5 /* TUSafariActivity.bundle in Resources */,
+				6DF5F6654C22026703AC642111F1FFD8 /* TUSafariActivity.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		27AC23F81D25D286F28410AAB0487411 /* Sources */ = {
+		13C45809C4935D87A08FC714C5FCC6BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				035552C9C252844BF18797810E489F3E /* ARChromeActivity-dummy.m in Sources */,
-				7ED5EBF1123207FBDA890C9A238D3603 /* ARChromeActivity.m in Sources */,
+				993C2F7933CB5ED1D7227767F337A28D /* TUSafariActivity.m in Sources */,
+				EF527B5D96DA770C3288FF4D4A5B30DF /* TUSafariActivity-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39C29296AC6007C7D378C880F2C903C7 /* Sources */ = {
+		6D7DF2E0DD243642775967BC7D7B66EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				628E0AFB9CC02CA6A4A4D062A90DC89F /* Pods-UnsplashClient-dummy.m in Sources */,
+				144F79F020460F002709EBC79937C71F /* Pods-UnsplashClient-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4392D5D3026540DE34129FB7C0DF2E8 /* Sources */ = {
+		814F7F84DEFEABCB8B9DFCD2F3C9086B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A5F42A5A6044B7CF2651FBD31D27BF /* SwiftGifOrigin-dummy.m in Sources */,
+				E3CBCB75597E94B4E7CB8AA8EC4E55BF /* UIImage+Gif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8EB3FE901BE9442AF03C2DB361C7B9E /* Sources */ = {
+		8AB903A4ED8B1E6E79547C656CC45612 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0141A95DB1F647899CC5D4DB824C065C /* SwiftGifOrigin-dummy.m in Sources */,
-				224BAD87E92E0520DBB7D12E01998F0A /* UIImage+Gif.swift in Sources */,
+				233C8B404C85B30ED1E7E1175B165733 /* ARChromeActivity.m in Sources */,
+				A26E581D6EE70D59ABFFC982911018E5 /* ARChromeActivity-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1C25DFCA6D375C735325144805E7D43 /* Sources */ = {
+		BE5AA4B401621214F27DACD1FA538D4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68368DB7511DA2A1BD9AAE21EFB1E8F3 /* TUSafariActivity-dummy.m in Sources */,
-				5C73C63BB4E8C6BDFEBFE11D72397033 /* TUSafariActivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		20142AF98BA77FF1420CAE8D866647D9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ARChromeActivity;
-			target = 7820232FF40C59895697DBAF0369BF55 /* ARChromeActivity */;
-			targetProxy = 949642951FCE6502D29254BCDA282DBE /* PBXContainerItemProxy */;
-		};
-		C232B0A2B757E52D4D511AE94CA7C343 /* PBXTargetDependency */ = {
+		34104D40CF7C1AF9005DEC7FFE793EC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TUSafariActivity;
 			target = 5B1BEE54E6F075C9FD6CFAD7FFC97727 /* TUSafariActivity */;
-			targetProxy = 66D5E0EDFFD636FF985BE6B8612C8642 /* PBXContainerItemProxy */;
+			targetProxy = 07456A29ED60C5735B2B6323CA99097A /* PBXContainerItemProxy */;
 		};
-		C98C51D0F2B7CC5E2363345D46B4093B /* PBXTargetDependency */ = {
+		71B458AB5B523064E8051AABB9786D77 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SwiftGifOrigin;
-			target = A7F9119A842E66F127E010A97169E4F4 /* SwiftGifOrigin */;
-			targetProxy = 76F4423FD5B19DA85F7EADC42DCB65A5 /* PBXContainerItemProxy */;
+			name = ARChromeActivity;
+			target = 7820232FF40C59895697DBAF0369BF55 /* ARChromeActivity */;
+			targetProxy = 317D63292A705360DC2231D85B2D015D /* PBXContainerItemProxy */;
 		};
-		FCAFE66DCDD4E6B3C6C0C8FB2F805F4A /* PBXTargetDependency */ = {
+		E441792CC9A7BBB6DCB43161DB8165C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "TUSafariActivity-TUSafariActivity";
 			target = 7DD2085A0DF56509B5D065A706C12E19 /* TUSafariActivity-TUSafariActivity */;
-			targetProxy = E4906DBCF4A70DB4D8CBF4C74CF1EABD /* PBXContainerItemProxy */;
+			targetProxy = 70F29F6FC14EBC68A8319CAC4830D4D1 /* PBXContainerItemProxy */;
+		};
+		F48C0D5E86E9F9D3BC53B2ED94D027F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGifOrigin;
+			target = A7F9119A842E66F127E010A97169E4F4 /* SwiftGifOrigin */;
+			targetProxy = 9F8D3BE9B15DE4234FF24565D6EE0219 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E014B35CB39B70CF66484F5AB085368 /* Debug */ = {
+		05929E677DE665A3956546254A84E532 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D0813A3AEE5C825B6E78247253F72F6 /* ARChromeActivity.debug.xcconfig */;
 			buildSettings = {
@@ -746,7 +761,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ARChromeActivity/ARChromeActivity-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ARChromeActivity/ARChromeActivity-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -765,11 +780,12 @@
 			};
 			name = Debug;
 		};
-		181735CEB8C88FF0ABBE86F23E7755F7 /* Release */ = {
+		08FAD0874B41551BFCD2AB37F2070605 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 299812A80156E0DE004F335F552579C5 /* Pods-UnsplashClient.release.xcconfig */;
+			baseConfigurationReference = 5B887E29C11177019A9B2BB9870CECDC /* Pods-UnsplashClient.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -780,7 +796,78 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-UnsplashClient/Pods-UnsplashClient-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UnsplashClient/Pods-UnsplashClient.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D8BB7D2905A7D279D2CB8A6898C8097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4F5FB9E2B5157A09E15D94A092BF24B /* TUSafariActivity.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TUSafariActivity/TUSafariActivity-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TUSafariActivity/TUSafariActivity-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TUSafariActivity/TUSafariActivity.modulemap";
+				PRODUCT_MODULE_NAME = TUSafariActivity;
+				PRODUCT_NAME = TUSafariActivity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FCE34CCA5BE8ECF8E850A43D7C9CBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 299812A80156E0DE004F335F552579C5 /* Pods-UnsplashClient.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UnsplashClient/Pods-UnsplashClient-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -802,7 +889,129 @@
 			};
 			name = Release;
 		};
-		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+		4C0398A4026723F5D02FC383FA199DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55057E6A7F0430DF3BDA209CC0A2490 /* ARChromeActivity.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ARChromeActivity/ARChromeActivity-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ARChromeActivity/ARChromeActivity-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ARChromeActivity/ARChromeActivity.modulemap";
+				PRODUCT_MODULE_NAME = ARChromeActivity;
+				PRODUCT_NAME = ARChromeActivity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C8D2B8D1D164A4D9FF9B64E75FA5033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ECAA88B8CC66BF86B8FBA62B3881F68 /* TUSafariActivity.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TUSafariActivity";
+				IBSC_MODULE = TUSafariActivity;
+				INFOPLIST_FILE = "Target Support Files/TUSafariActivity/ResourceBundle-TUSafariActivity-TUSafariActivity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = TUSafariActivity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6944F7A26B91D24A0C6EA8AF6933AA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895D55B00F9A0C4DDA6B80D277961F4E /* SwiftGifOrigin.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin.modulemap";
+				PRODUCT_MODULE_NAME = SwiftGifOrigin;
+				PRODUCT_NAME = SwiftGifOrigin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		804B21A6A73FE021AD10A707264FC33A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ECAA88B8CC66BF86B8FBA62B3881F68 /* TUSafariActivity.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TUSafariActivity/TUSafariActivity-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TUSafariActivity/TUSafariActivity-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TUSafariActivity/TUSafariActivity.modulemap";
+				PRODUCT_MODULE_NAME = TUSafariActivity;
+				PRODUCT_NAME = TUSafariActivity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -855,7 +1064,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -868,179 +1077,7 @@
 			};
 			name = Debug;
 		};
-		2E178D782A5A50BC2CC60E73AC116B3F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B887E29C11177019A9B2BB9870CECDC /* Pods-UnsplashClient.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-UnsplashClient/Pods-UnsplashClient-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-UnsplashClient/Pods-UnsplashClient.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		43FCF8506CC30021C42834CA4D2716CF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8ECAA88B8CC66BF86B8FBA62B3881F68 /* TUSafariActivity.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TUSafariActivity";
-				IBSC_MODULE = TUSafariActivity;
-				INFOPLIST_FILE = "Target Support Files/TUSafariActivity/ResourceBundle-TUSafariActivity-TUSafariActivity-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = TUSafariActivity;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		50A64683A90CD8B8F5BA34B2CA6CA8EA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4F5FB9E2B5157A09E15D94A092BF24B /* TUSafariActivity.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TUSafariActivity";
-				IBSC_MODULE = TUSafariActivity;
-				INFOPLIST_FILE = "Target Support Files/TUSafariActivity/ResourceBundle-TUSafariActivity-TUSafariActivity-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = TUSafariActivity;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		5405AAFB689DD9816F04377BC51CF438 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8ECAA88B8CC66BF86B8FBA62B3881F68 /* TUSafariActivity.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TUSafariActivity/TUSafariActivity-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TUSafariActivity/TUSafariActivity-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/TUSafariActivity/TUSafariActivity.modulemap";
-				PRODUCT_MODULE_NAME = TUSafariActivity;
-				PRODUCT_NAME = TUSafariActivity;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B3FF8C032210BE20F22A64242CEE7EFF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 895D55B00F9A0C4DDA6B80D277961F4E /* SwiftGifOrigin.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin.modulemap";
-				PRODUCT_MODULE_NAME = SwiftGifOrigin;
-				PRODUCT_NAME = SwiftGifOrigin;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BA50296857CA9DF229299846DEEB92F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C55057E6A7F0430DF3BDA209CC0A2490 /* ARChromeActivity.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ARChromeActivity/ARChromeActivity-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ARChromeActivity/ARChromeActivity-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ARChromeActivity/ARChromeActivity.modulemap";
-				PRODUCT_MODULE_NAME = ARChromeActivity;
-				PRODUCT_NAME = ARChromeActivity;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1090,7 +1127,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1102,7 +1139,25 @@
 			};
 			name = Release;
 		};
-		DF12001930EB63157636AA07EA7AD70E /* Release */ = {
+		B0FD961BE5A1B176CBBCEA39CE87D6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4F5FB9E2B5157A09E15D94A092BF24B /* TUSafariActivity.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TUSafariActivity";
+				IBSC_MODULE = TUSafariActivity;
+				INFOPLIST_FILE = "Target Support Files/TUSafariActivity/ResourceBundle-TUSafariActivity-TUSafariActivity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = TUSafariActivity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F5460408A0DD5564F12D70EA1B957971 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 00076EB0446E2655403FB74A0A62703D /* SwiftGifOrigin.release.xcconfig */;
 			buildSettings = {
@@ -1117,7 +1172,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1137,48 +1192,14 @@
 			};
 			name = Release;
 		};
-		E6D7EF293CB0E4C3C1B3B75718E958E0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4F5FB9E2B5157A09E15D94A092BF24B /* TUSafariActivity.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TUSafariActivity/TUSafariActivity-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TUSafariActivity/TUSafariActivity-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/TUSafariActivity/TUSafariActivity.modulemap";
-				PRODUCT_MODULE_NAME = TUSafariActivity;
-				PRODUCT_NAME = TUSafariActivity;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C70ABBE961F2098FB27397202612845 /* Build configuration list for PBXNativeTarget "TUSafariActivity-TUSafariActivity" */ = {
+		0569612B534A2623AF65BD0884085A78 /* Build configuration list for PBXNativeTarget "TUSafariActivity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50A64683A90CD8B8F5BA34B2CA6CA8EA /* Debug */,
-				43FCF8506CC30021C42834CA4D2716CF /* Release */,
+				3D8BB7D2905A7D279D2CB8A6898C8097 /* Debug */,
+				804B21A6A73FE021AD10A707264FC33A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1186,44 +1207,44 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
-				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88EE434ABC20CDDC7D48CF507BDCEB69 /* Build configuration list for PBXNativeTarget "ARChromeActivity" */ = {
+		7997408491067D161F9AF923ADE25563 /* Build configuration list for PBXNativeTarget "TUSafariActivity-TUSafariActivity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E014B35CB39B70CF66484F5AB085368 /* Debug */,
-				BA50296857CA9DF229299846DEEB92F8 /* Release */,
+				B0FD961BE5A1B176CBBCEA39CE87D6AF /* Debug */,
+				4C8D2B8D1D164A4D9FF9B64E75FA5033 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93CBE6177963C771AFC5782A1B1203EF /* Build configuration list for PBXNativeTarget "Pods-UnsplashClient" */ = {
+		938EDB2D2BDE2DC50F09132C7AF93AB9 /* Build configuration list for PBXNativeTarget "Pods-UnsplashClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E178D782A5A50BC2CC60E73AC116B3F /* Debug */,
-				181735CEB8C88FF0ABBE86F23E7755F7 /* Release */,
+				08FAD0874B41551BFCD2AB37F2070605 /* Debug */,
+				3FCE34CCA5BE8ECF8E850A43D7C9CBEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99A19CAE5BD75E33445174D268501EC6 /* Build configuration list for PBXNativeTarget "SwiftGifOrigin" */ = {
+		98D762D52E230DF4CC28ACA0AB40C00C /* Build configuration list for PBXNativeTarget "ARChromeActivity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3FF8C032210BE20F22A64242CEE7EFF /* Debug */,
-				DF12001930EB63157636AA07EA7AD70E /* Release */,
+				05929E677DE665A3956546254A84E532 /* Debug */,
+				4C0398A4026723F5D02FC383FA199DD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB897FB0134E782049020E5E117838A4 /* Build configuration list for PBXNativeTarget "TUSafariActivity" */ = {
+		C95ED2684E193E89ED96D9EAC45CB7DB /* Build configuration list for PBXNativeTarget "SwiftGifOrigin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E6D7EF293CB0E4C3C1B3B75718E958E0 /* Debug */,
-				5405AAFB689DD9816F04377BC51CF438 /* Release */,
+				6944F7A26B91D24A0C6EA8AF6933AA96 /* Debug */,
+				F5460408A0DD5564F12D70EA1B957971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
